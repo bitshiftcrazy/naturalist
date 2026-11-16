@@ -1,0 +1,29 @@
+
+# Build products
+software/build/
+*.o
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Emacs
+\#*\#
+*~
+.#*
+
+# KiCad temporary files
+*.kicad_prl
+*.kicad_swp
+*.lck
+
+# KiCad automatic backups
+*-backups/
+
+# Local backups
+*.bak
+*.orig
+
+# Other
+.DS_Store
