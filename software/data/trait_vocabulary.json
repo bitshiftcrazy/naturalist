@@ -1,0 +1,853 @@
+{
+  "schema_version": 2,
+  "vocabulary_version": "0.2",
+  "facets": [
+    {
+      "id": "body_form",
+      "label_de": "Fruchtkörperform",
+      "label_en": "Fruiting body shape",
+      "tier": "primary",
+      "cardinality": "one",
+      "values": [
+        {
+          "id": "cap_stem",
+          "label_de": "Hut und Stiel",
+          "label_en": "Cap and stem"
+        },
+        {
+          "id": "bracket",
+          "label_de": "Konsolen- / Porlingsform",
+          "label_en": "Bracket / polypore"
+        },
+        {
+          "id": "puffball",
+          "label_de": "Bauchpilz / Stäubling",
+          "label_en": "Gasteroid / puffball"
+        },
+        {
+          "id": "branched",
+          "label_de": "Verzweigt / kraus",
+          "label_en": "Branched / frilly"
+        },
+        {
+          "id": "morel",
+          "label_de": "Morchelform",
+          "label_en": "Morel-shaped"
+        }
+      ]
+    },
+    {
+      "id": "fertile_surface",
+      "label_de": "Fruchtschicht",
+      "label_en": "Spore-bearing surface",
+      "tier": "primary",
+      "cardinality": "one",
+      "values": [
+        {
+          "id": "gills",
+          "label_de": "Lamellen",
+          "label_en": "Gills"
+        },
+        {
+          "id": "pores",
+          "label_de": "Röhren / Poren",
+          "label_en": "Tubes / pores"
+        },
+        {
+          "id": "ridges",
+          "label_de": "Leisten / stumpfe Falten",
+          "label_en": "Ridges / blunt folds"
+        },
+        {
+          "id": "teeth",
+          "label_de": "Stacheln",
+          "label_en": "Spines / teeth"
+        },
+        {
+          "id": "enclosed",
+          "label_de": "Sporen innen eingeschlossen",
+          "label_en": "Spores enclosed inside"
+        },
+        {
+          "id": "pitted",
+          "label_de": "Gruben / Waben",
+          "label_en": "Pits / honeycomb"
+        },
+        {
+          "id": "smooth",
+          "label_de": "Glatt / schwer erkennbar",
+          "label_en": "Smooth / hard to distinguish"
+        }
+      ],
+      "note": "Bei ungewöhnlichen Formen ist die sporenbildende Schicht nicht immer auf der Hutunterseite (z.B. Korallenpilze).",
+      "note_en": "In unusual fruiting body shapes, the spore-bearing surface is not always on the underside of a cap (e.g. coral fungi)."
+    },
+    {
+      "id": "substrate",
+      "label_de": "Wuchssubstrat",
+      "label_en": "Growing substrate",
+      "tier": "primary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "soil",
+          "label_de": "Erde / Boden",
+          "label_en": "Soil / ground"
+        },
+        {
+          "id": "leaf_litter",
+          "label_de": "Laub- / Nadelstreu",
+          "label_en": "Leaf / needle litter"
+        },
+        {
+          "id": "dead_wood",
+          "label_de": "Totholz",
+          "label_en": "Dead wood"
+        },
+        {
+          "id": "living_wood",
+          "label_de": "Lebendes Holz",
+          "label_en": "Living wood"
+        },
+        {
+          "id": "buried_wood",
+          "label_de": "Vergrabenes Holz / Wurzeln",
+          "label_en": "Buried wood / roots"
+        },
+        {
+          "id": "moss",
+          "label_de": "Moos",
+          "label_en": "Moss"
+        }
+      ],
+      "note": "Beobachtetes Substrat: scheinbar am Boden wachsende Pilze können auf verborgenem Holz wachsen.",
+      "note_en": "Record the observed substrate: mushrooms that appear to grow from the ground may actually be growing on buried wood."
+    },
+    {
+      "id": "cap_colour",
+      "label_de": "Hutfarbe",
+      "label_en": "Cap colour",
+      "tier": "primary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "white",
+          "label_de": "Weiß",
+          "label_en": "White"
+        },
+        {
+          "id": "cream",
+          "label_de": "Creme / Beige",
+          "label_en": "Cream / beige"
+        },
+        {
+          "id": "yellow",
+          "label_de": "Gelb",
+          "label_en": "Yellow"
+        },
+        {
+          "id": "orange",
+          "label_de": "Orange",
+          "label_en": "Orange"
+        },
+        {
+          "id": "red",
+          "label_de": "Rot",
+          "label_en": "Red"
+        },
+        {
+          "id": "brown",
+          "label_de": "Braun",
+          "label_en": "Brown"
+        },
+        {
+          "id": "grey",
+          "label_de": "Grau",
+          "label_en": "Grey"
+        },
+        {
+          "id": "green_olive",
+          "label_de": "Grün / Oliv",
+          "label_en": "Green / olive"
+        },
+        {
+          "id": "purple",
+          "label_de": "Violett",
+          "label_en": "Violet"
+        },
+        {
+          "id": "black",
+          "label_de": "Schwarz",
+          "label_en": "Black"
+        }
+      ],
+      "note": "Farben können mit Alter, Feuchtigkeit und Beleuchtung variieren. Bei hutlosen Arten nicht anwendbar.",
+      "note_en": "Colours may vary with age, moisture and lighting. Not applicable to species without a cap."
+    },
+    {
+      "id": "fertile_surface_colour",
+      "label_de": "Farbe der Fruchtschicht",
+      "label_en": "Spore-bearing surface colour",
+      "tier": "primary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "white",
+          "label_de": "Weiß",
+          "label_en": "White"
+        },
+        {
+          "id": "cream",
+          "label_de": "Creme",
+          "label_en": "Cream"
+        },
+        {
+          "id": "yellow",
+          "label_de": "Gelb",
+          "label_en": "Yellow"
+        },
+        {
+          "id": "orange",
+          "label_de": "Orange",
+          "label_en": "Orange"
+        },
+        {
+          "id": "pink",
+          "label_de": "Rosa",
+          "label_en": "Pink"
+        },
+        {
+          "id": "brown",
+          "label_de": "Braun",
+          "label_en": "Brown"
+        },
+        {
+          "id": "green_olive",
+          "label_de": "Grünlich / Oliv",
+          "label_en": "Greenish / olive"
+        },
+        {
+          "id": "grey",
+          "label_de": "Grau",
+          "label_en": "Grey"
+        },
+        {
+          "id": "black",
+          "label_de": "Dunkel / Schwarz",
+          "label_en": "Dark / black"
+        }
+      ],
+      "note": "Lamellen- oder Porenfarbe ist nicht dasselbe wie Sporenpulverfarbe. Altersabhängig.",
+      "note_en": "Gill or pore colour is not the same as spore-print colour. It can also change with age."
+    },
+    {
+      "id": "cap_surface",
+      "label_de": "Hutoberfläche",
+      "label_en": "Cap surface",
+      "tier": "primary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "smooth",
+          "label_de": "Glatt",
+          "label_en": "Smooth"
+        },
+        {
+          "id": "scaly",
+          "label_de": "Schuppig",
+          "label_en": "Scaly"
+        },
+        {
+          "id": "warty",
+          "label_de": "Flockig / mit Hüllresten",
+          "label_en": "Floccose / with veil remnants"
+        },
+        {
+          "id": "slimy",
+          "label_de": "Schleimig / schmierig",
+          "label_en": "Slimy / sticky"
+        },
+        {
+          "id": "cracked",
+          "label_de": "Rissig",
+          "label_en": "Cracked"
+        },
+        {
+          "id": "shaggy",
+          "label_de": "Zottig",
+          "label_en": "Shaggy"
+        },
+        {
+          "id": "fibrous",
+          "label_de": "Faserig / filzig",
+          "label_en": "Fibrous / felt-like"
+        }
+      ]
+    },
+    {
+      "id": "body_surface",
+      "label_de": "Fruchtkörper-Außenoberfläche (ohne Hut)",
+      "label_en": "Outer surface of capless fruiting body",
+      "tier": "primary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "smooth",
+          "label_de": "Glatt",
+          "label_en": "Smooth"
+        },
+        {
+          "id": "spiny",
+          "label_de": "Mit Stacheln",
+          "label_en": "Spiny"
+        },
+        {
+          "id": "warty",
+          "label_de": "Mit Warzen",
+          "label_en": "Warty"
+        },
+        {
+          "id": "granular",
+          "label_de": "Körnig",
+          "label_en": "Granular"
+        },
+        {
+          "id": "scaly",
+          "label_de": "Schuppig",
+          "label_en": "Scaly"
+        }
+      ],
+      "note": "Vor allem für Stäublinge, Korallen, Glucken oder andere Formen ohne klassischen Hut. Nicht mit cap_surface verwechseln.",
+      "note_en": "Mainly for puffballs, coral fungi, cauliflower fungi or other shapes without a typical cap. Do not confuse this with cap_surface."
+    },
+    {
+      "id": "ring_presence",
+      "label_de": "Ring am Stiel",
+      "label_en": "Ring on stem",
+      "tier": "primary",
+      "cardinality": "one",
+      "values": [
+        {
+          "id": "present",
+          "label_de": "Ring erkennbar",
+          "label_en": "Ring visible"
+        },
+        {
+          "id": "absent",
+          "label_de": "Kein Ring erkennbar",
+          "label_en": "No ring visible"
+        }
+      ],
+      "note": "Die Beobachtung «kein Ring erkennbar» ist kein sicherer Nachweis, dass es keinen Ring gibt.",
+      "note_en": "Not seeing a ring is not proof that no ring is present."
+    },
+    {
+      "id": "ring_mobility",
+      "label_de": "Ring verschiebbar",
+      "label_en": "Movable ring",
+      "tier": "primary",
+      "cardinality": "one",
+      "values": [
+        {
+          "id": "movable",
+          "label_de": "Verschiebbar",
+          "label_en": "Movable"
+        },
+        {
+          "id": "fixed",
+          "label_de": "Nicht verschiebbar",
+          "label_en": "Not movable"
+        }
+      ],
+      "note": "Nur sinnvoll, wenn ein Ring vorhanden ist. Verschiebbar impliziert Ring vorhanden, kein zusätzlicher unabhängiger Trefferpunkt.",
+      "note_en": "Only meaningful when a ring is present. A movable ring already implies that a ring is present; do not count these as two independent matches."
+    },
+    {
+      "id": "stem_base",
+      "label_de": "Stielbasis",
+      "label_en": "Stem base",
+      "tier": "primary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "plain",
+          "label_de": "Unauffällig",
+          "label_en": "Unremarkable"
+        },
+        {
+          "id": "bulbous",
+          "label_de": "Knollig / verdickt",
+          "label_en": "Bulbous / swollen"
+        },
+        {
+          "id": "rooting",
+          "label_de": "Wurzelartig verlängert",
+          "label_en": "Root-like extension"
+        }
+      ],
+      "note": "Nur die Form der Stielbasis.",
+      "note_en": "Describes only the shape of the stem base."
+    },
+    {
+      "id": "volva_presence",
+      "label_de": "Gesamthülle / Volvareste an der Stielbasis",
+      "label_en": "Universal veil / volva remnants at stem base",
+      "tier": "primary",
+      "cardinality": "one",
+      "values": [
+        {
+          "id": "present",
+          "label_de": "Volva oder Volvareste erkennbar",
+          "label_en": "Volva or volva remnants visible"
+        },
+        {
+          "id": "absent",
+          "label_de": "Keine Volva / Volvareste (bei vollständig untersuchter Basis)",
+          "label_en": "No volva / remnants (base fully examined)"
+        }
+      ],
+      "note": "Volva ist kein Ring, Basis kann versteckt oder vergraben sein.",
+      "note_en": "A volva is not a stem ring. The stem base may be hidden or buried."
+    },
+    {
+      "id": "volva_form",
+      "label_de": "Art der Volva / Hüllreste",
+      "label_en": "Volva / veil remnant form",
+      "tier": "primary",
+      "cardinality": "many",
+      "requires": {
+        "volva_presence": "present"
+      },
+      "values": [
+        {
+          "id": "saccate",
+          "label_de": "Sackartige Scheide",
+          "label_en": "Sack-like volva"
+        },
+        {
+          "id": "limbate",
+          "label_de": "Gerandete Scheide / Kragen",
+          "label_en": "Rimmed volva / collar"
+        },
+        {
+          "id": "concentric_zones",
+          "label_de": "Konzentrische Gürtel / Ringe von Hüllresten",
+          "label_en": "Concentric bands / rings of veil remnants"
+        },
+        {
+          "id": "fragmentary",
+          "label_de": "Flockige / unregelmäßige Hüllreste",
+          "label_en": "Floccose / irregular veil remnants"
+        }
+      ],
+      "note": "Impliziert Volva.",
+      "note_en": "Implies a volva is present."
+    },
+    {
+      "id": "stem_surface",
+      "label_de": "Stieloberfläche",
+      "label_en": "Stem surface",
+      "tier": "primary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "smooth",
+          "label_de": "Glatt",
+          "label_en": "Smooth"
+        },
+        {
+          "id": "reticulate",
+          "label_de": "Genetzt",
+          "label_en": "Reticulate / netted"
+        },
+        {
+          "id": "scabers",
+          "label_de": "Dunkel punktiert / Schüppchen",
+          "label_en": "Dark dots / scabers"
+        },
+        {
+          "id": "snakeskin",
+          "label_de": "Genattert",
+          "label_en": "Snakeskin pattern"
+        },
+        {
+          "id": "fibrous",
+          "label_de": "Faserig",
+          "label_en": "Fibrous"
+        },
+        {
+          "id": "scaly",
+          "label_de": "Schuppig",
+          "label_en": "Scaly"
+        }
+      ]
+    },
+    {
+      "id": "growth",
+      "label_de": "Wuchsweise",
+      "label_en": "Growth pattern",
+      "tier": "primary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "single",
+          "label_de": "Einzeln",
+          "label_en": "Solitary"
+        },
+        {
+          "id": "scattered",
+          "label_de": "Verstreut",
+          "label_en": "Scattered"
+        },
+        {
+          "id": "tufted",
+          "label_de": "Büschelig / dicht gedrängt",
+          "label_en": "Clustered / densely grouped"
+        },
+        {
+          "id": "overlapping",
+          "label_de": "Dachziegelig / überlappend",
+          "label_en": "Overlapping / shingled"
+        }
+      ]
+    },
+    {
+      "id": "staining",
+      "label_de": "Verfärbung nach Verletzung",
+      "label_en": "Discolouration when damaged",
+      "tier": "primary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "blue",
+          "label_de": "Blauend",
+          "label_en": "Turns blue"
+        },
+        {
+          "id": "red_pink",
+          "label_de": "Rötend / rosa",
+          "label_en": "Reddens / turns pink"
+        },
+        {
+          "id": "dark",
+          "label_de": "Dunkelbraun / schwarz",
+          "label_en": "Turns dark brown / black"
+        },
+        {
+          "id": "none",
+          "label_de": "Typischerweise keine erkennbare Verfärbung nach Verletzung",
+          "label_en": "Usually no visible colour change when damaged"
+        }
+      ]
+    },
+    {
+      "id": "habitat",
+      "label_de": "Lebensraum",
+      "label_en": "Habitat",
+      "tier": "secondary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "woodland",
+          "label_de": "Wald",
+          "label_en": "Woodland"
+        },
+        {
+          "id": "grassland",
+          "label_de": "Wiese / Weide",
+          "label_en": "Meadow / pasture"
+        },
+        {
+          "id": "forest_edge",
+          "label_de": "Waldrand / Lichtung",
+          "label_en": "Woodland edge / clearing"
+        },
+        {
+          "id": "park_garden",
+          "label_de": "Park / Garten",
+          "label_en": "Park / garden"
+        }
+      ]
+    },
+    {
+      "id": "nearby_trees",
+      "label_de": "Bäume in der Nähe",
+      "label_en": "Nearby trees",
+      "tier": "secondary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "birch",
+          "label_de": "Birke",
+          "label_en": "Birch"
+        },
+        {
+          "id": "pine",
+          "label_de": "Kiefer",
+          "label_en": "Pine"
+        },
+        {
+          "id": "spruce",
+          "label_de": "Fichte",
+          "label_en": "Spruce"
+        },
+        {
+          "id": "beech",
+          "label_de": "Buche",
+          "label_en": "Beech"
+        },
+        {
+          "id": "oak",
+          "label_de": "Eiche",
+          "label_en": "Oak"
+        },
+        {
+          "id": "other_deciduous",
+          "label_de": "Andere Laubbäume",
+          "label_en": "Other deciduous trees"
+        },
+        {
+          "id": "other_conifer",
+          "label_de": "Andere Nadelbäume",
+          "label_en": "Other conifers"
+        }
+      ],
+      "note": "Beobachtete Bäume, nicht unbedingt Mykorrhizapartner-Zuordnung.",
+      "note_en": "Trees observed nearby are not necessarily the fungus’s mycorrhizal partners."
+    },
+    {
+      "id": "cap_shape",
+      "label_de": "Hutform",
+      "label_en": "Cap shape",
+      "tier": "secondary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "convex",
+          "label_de": "Gewölbt",
+          "label_en": "Convex"
+        },
+        {
+          "id": "flat",
+          "label_de": "Flach / ausgebreitet",
+          "label_en": "Flat / expanded"
+        },
+        {
+          "id": "conical",
+          "label_de": "Kegelig",
+          "label_en": "Conical"
+        },
+        {
+          "id": "bell",
+          "label_de": "Glockig",
+          "label_en": "Bell-shaped"
+        },
+        {
+          "id": "funnel",
+          "label_de": "Trichterförmig",
+          "label_en": "Funnel-shaped"
+        },
+        {
+          "id": "umbonate",
+          "label_de": "Mit Buckel",
+          "label_en": "With central bump (umbo)"
+        },
+        {
+          "id": "depressed",
+          "label_de": "Mittig vertieft",
+          "label_en": "Depressed in the centre"
+        }
+      ]
+    },
+    {
+      "id": "gill_attachment",
+      "label_de": "Lamellenansatz",
+      "label_en": "Gill attachment",
+      "tier": "secondary",
+      "cardinality": "one",
+      "values": [
+        {
+          "id": "free",
+          "label_de": "Frei",
+          "label_en": "Free"
+        },
+        {
+          "id": "attached",
+          "label_de": "Angewachsen",
+          "label_en": "Attached (adnate)"
+        },
+        {
+          "id": "notched",
+          "label_de": "Ausgebuchtet",
+          "label_en": "Notched (sinuate)"
+        },
+        {
+          "id": "decurrent",
+          "label_de": "Am Stiel herablaufend",
+          "label_en": "Running down the stem (decurrent)"
+        }
+      ],
+      "note": "Impliziert Lamellen.",
+      "note_en": "Implies gills are present."
+    },
+    {
+      "id": "gill_spacing",
+      "label_de": "Lamellenabstand",
+      "label_en": "Gill spacing",
+      "tier": "secondary",
+      "cardinality": "one",
+      "values": [
+        {
+          "id": "crowded",
+          "label_de": "Dicht",
+          "label_en": "Crowded"
+        },
+        {
+          "id": "moderate",
+          "label_de": "Mittel",
+          "label_en": "Moderately spaced"
+        },
+        {
+          "id": "distant",
+          "label_de": "Weit stehend",
+          "label_en": "Widely spaced"
+        }
+      ],
+      "note": "Impliziert Lamellen.",
+      "note_en": "Implies gills are present."
+    },
+    {
+      "id": "stem_position",
+      "label_de": "Stielansatz",
+      "label_en": "Stem position",
+      "tier": "secondary",
+      "cardinality": "one",
+      "values": [
+        {
+          "id": "central",
+          "label_de": "Mittig",
+          "label_en": "Central"
+        },
+        {
+          "id": "eccentric",
+          "label_de": "Außermittig",
+          "label_en": "Off-centre"
+        },
+        {
+          "id": "lateral",
+          "label_de": "Seitlich",
+          "label_en": "Lateral / on the side"
+        },
+        {
+          "id": "absent",
+          "label_de": "Kein deutlicher Stiel",
+          "label_en": "No distinct stem"
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "label_de": "Weitere sichtbare Merkmale",
+      "label_en": "Other visible features",
+      "tier": "secondary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "deliquescent",
+          "label_de": "Zerfließt tintenartig",
+          "label_en": "Dissolves into ink-like liquid"
+        },
+        {
+          "id": "latex",
+          "label_de": "Milchsaft bei Verletzung",
+          "label_en": "Milky latex when damaged"
+        },
+        {
+          "id": "granular_veil",
+          "label_de": "Feine Körnchen / glimmernde Hüllreste",
+          "label_en": "Fine granules / glittering veil remnants"
+        }
+      ],
+      "note": "Gucken nicht lecken.",
+      "note_en": "Look, don’t lick."
+    },
+    {
+      "id": "spore_print",
+      "label_de": "Sporenpulverfarbe",
+      "label_en": "Spore-print colour",
+      "tier": "secondary",
+      "cardinality": "one",
+      "values": [
+        {
+          "id": "white",
+          "label_de": "Weiß / Creme",
+          "label_en": "White / cream"
+        },
+        {
+          "id": "pink",
+          "label_de": "Rosa",
+          "label_en": "Pink"
+        },
+        {
+          "id": "brown",
+          "label_de": "Braun / Ocker",
+          "label_en": "Brown / ochre"
+        },
+        {
+          "id": "purple_brown",
+          "label_de": "Purpurbraun",
+          "label_en": "Purple-brown"
+        },
+        {
+          "id": "black",
+          "label_de": "Schwarz",
+          "label_en": "Black"
+        },
+        {
+          "id": "olive",
+          "label_de": "Oliv",
+          "label_en": "Olive"
+        }
+      ],
+      "note": "Typischerweise nicht einfach im Feld zu bestimmbar.",
+      "note_en": "Usually difficult to determine in the field."
+    },
+    {
+      "id": "season",
+      "label_de": "Jahreszeit",
+      "label_en": "Season",
+      "tier": "secondary",
+      "cardinality": "many",
+      "values": [
+        {
+          "id": "spring",
+          "label_de": "Frühling",
+          "label_en": "Spring"
+        },
+        {
+          "id": "summer",
+          "label_de": "Sommer",
+          "label_en": "Summer"
+        },
+        {
+          "id": "autumn",
+          "label_de": "Herbst",
+          "label_en": "Autumn"
+        },
+        {
+          "id": "winter",
+          "label_de": "Winter",
+          "label_en": "Winter"
+        }
+      ],
+      "note": "Wetter und Region beeinflussen Fruktifikation.",
+      "note_en": "Weather and region affect fruiting."
+    }
+  ],
+  "sources_for_vocabulary": [
+    "https://minnesotamycologicalsociety.org/mushroom-collection-best-practices/",
+    "https://alabamamushroomsociety.org/identification",
+    "https://www.first-nature.com/fungi/",
+    "https://namyco.org/interests/education/how-to-make-a-spore-print/"
+  ]
+}

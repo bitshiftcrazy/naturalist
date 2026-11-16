@@ -1,0 +1,2181 @@
+{
+  "schema_version": 2,
+  "mushrooms": [
+    {
+      "id": "agaricus_campestris",
+      "scientific_name": "Agaricus campestris",
+      "common_names_de": [
+        "Wiesen-Champignon"
+      ],
+      "common_names_en": [
+        "Field Mushroom"
+      ],
+      "image": "assets/mushrooms/agaricus_campestris.png",
+      "illustration": {
+        "publication_year": 1896,
+        "artists": [
+          "Schmalfuß, Albin"
+        ],
+        "book_authors": [
+          "Michael, Edmund"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8509421351/",
+          "bhl": "https://www.biodiversitylibrary.org/page/1266201#page/153/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "Public Domain"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "gills"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "white",
+          "cream"
+        ],
+        "fertile_surface_colour": [
+          "pink",
+          "brown",
+          "black"
+        ],
+        "cap_surface": [
+          "smooth",
+          "scaly"
+        ],
+        "ring_presence": [
+          "present"
+        ],
+        "stem_surface": [
+          "smooth",
+          "scaly"
+        ],
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "grassland",
+          "park_garden"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat"
+        ],
+        "gill_attachment": [
+          "free"
+        ],
+        "gill_spacing": [
+          "crowded"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "brown"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/agaricus-campestris.php"
+      ]
+    },
+    {
+      "id": "amanita_muscaria",
+      "scientific_name": "Amanita muscaria",
+      "common_names_de": [
+        "Fliegenpilz"
+      ],
+      "common_names_en": [
+        "Fly Agaric"
+      ],
+      "image": "assets/mushrooms/amanita_muscaria.png",
+      "illustration": {
+        "publication_year": 1891,
+        "artists": null,
+        "book_authors": [
+          "Dufour, Léon"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/6358013625/",
+          "bhl": "https://www.biodiversitylibrary.org/page/3270680#page/95/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "gills"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "red",
+          "orange"
+        ],
+        "fertile_surface_colour": [
+          "white",
+          "cream"
+        ],
+        "cap_surface": [
+          "warty"
+        ],
+        "ring_presence": [
+          "present"
+        ],
+        "stem_base": [
+          "bulbous"
+        ],
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "woodland"
+        ],
+        "nearby_trees": [
+          "birch",
+          "pine",
+          "spruce"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat"
+        ],
+        "gill_attachment": [
+          "free"
+        ],
+        "gill_spacing": [
+          "crowded"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "white"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ],
+        "volva_presence": [
+          "present"
+        ],
+        "volva_form": [
+          "concentric_zones"
+        ],
+        "body_surface": null
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/amanita-muscaria.php",
+        "https://www.mushroomexpert.com/amanita_muscaria_muscaria.html"
+      ]
+    },
+    {
+      "id": "amanita_pantherina",
+      "scientific_name": "Amanita pantherina",
+      "common_names_de": [
+        "Pantherpilz"
+      ],
+      "common_names_en": [
+        "Panthercap",
+        "Panther Cap"
+      ],
+      "image": "assets/mushrooms/amanita_pantherina.png",
+      "illustration": {
+        "publication_year": 1891,
+        "artists": null,
+        "book_authors": [
+          "Dufour, Léon"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/6358013975/",
+          "bhl": "https://www.biodiversitylibrary.org/page/3270807#page/99/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "gills"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "brown",
+          "grey",
+          "cream"
+        ],
+        "fertile_surface_colour": [
+          "white"
+        ],
+        "cap_surface": [
+          "warty"
+        ],
+        "ring_presence": [
+          "present"
+        ],
+        "stem_base": [
+          "bulbous"
+        ],
+        "volva_presence": [
+          "present"
+        ],
+        "volva_form": [
+          "concentric_zones"
+        ],
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "woodland"
+        ],
+        "nearby_trees": [
+          "beech",
+          "oak",
+          "other_deciduous"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat"
+        ],
+        "gill_attachment": [
+          "free"
+        ],
+        "gill_spacing": [
+          "crowded"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "white"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/amanita-pantherina.php"
+      ]
+    },
+    {
+      "id": "amanita_phalloides",
+      "scientific_name": "Amanita phalloides",
+      "common_names_de": [
+        "Grüner Knollenblätterpilz"
+      ],
+      "common_names_en": [
+        "Deathcap",
+        "Death Cap"
+      ],
+      "image": "assets/mushrooms/amanita_phalloides.png",
+      "illustration": {
+        "publication_year": 1891,
+        "artists": null,
+        "book_authors": [
+          "Dufour, Léon"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/6358013781/",
+          "bhl": "https://www.biodiversitylibrary.org/page/3270805#page/97/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "gills"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "green_olive",
+          "yellow",
+          "cream",
+          "white"
+        ],
+        "fertile_surface_colour": [
+          "white",
+          "cream"
+        ],
+        "cap_surface": [
+          "smooth"
+        ],
+        "ring_presence": [
+          "present"
+        ],
+        "stem_base": [
+          "bulbous"
+        ],
+        "volva_presence": [
+          "present"
+        ],
+        "volva_form": [
+          "saccate"
+        ],
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "woodland"
+        ],
+        "nearby_trees": [
+          "oak",
+          "beech",
+          "other_deciduous",
+          "other_conifer"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat"
+        ],
+        "gill_attachment": [
+          "free"
+        ],
+        "gill_spacing": [
+          "crowded"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "white"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/amanita-phalloides.php"
+      ]
+    },
+    {
+      "id": "amanita_rubescens",
+      "scientific_name": "Amanita rubescens",
+      "common_names_de": [
+        "Perlpilz"
+      ],
+      "common_names_en": [
+        "Blusher"
+      ],
+      "image": "assets/mushrooms/amanita_rubescens.png",
+      "illustration": {
+        "publication_year": 1891,
+        "artists": null,
+        "book_authors": [
+          "Dufour, Léon"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/6358013975/",
+          "bhl": "https://www.biodiversitylibrary.org/page/3270807#page/99/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "gills"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "cream",
+          "brown",
+          "grey",
+          "red"
+        ],
+        "fertile_surface_colour": [
+          "white",
+          "cream",
+          "pink"
+        ],
+        "cap_surface": [
+          "warty"
+        ],
+        "ring_presence": [
+          "present"
+        ],
+        "stem_base": [
+          "bulbous"
+        ],
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "woodland"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat"
+        ],
+        "gill_attachment": [
+          "attached",
+          "free"
+        ],
+        "gill_spacing": [
+          "crowded"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "white"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ],
+        "staining": [
+          "red_pink"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/amanita-rubescens.php"
+      ]
+    },
+    {
+      "id": "boletus_edulis",
+      "scientific_name": "Boletus edulis",
+      "common_names_de": [
+        "Steinpilz"
+      ],
+      "common_names_en": [
+        "Cep",
+        "Penny Bun",
+        "Porcini",
+        "King Bolete"
+      ],
+      "image": "assets/mushrooms/boletus_edulis.png",
+      "illustration": {
+        "publication_year": 1891,
+        "artists": null,
+        "book_authors": [
+          "Dufour, Léon"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/6358026439/",
+          "bhl": "https://www.biodiversitylibrary.org/page/3270845#page/199/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "pores"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "brown"
+        ],
+        "fertile_surface_colour": [
+          "white",
+          "yellow",
+          "green_olive"
+        ],
+        "cap_surface": [
+          "smooth"
+        ],
+        "ring_presence": [
+          "absent"
+        ],
+        "ring_mobility": null,
+        "stem_base": [
+          "bulbous"
+        ],
+        "stem_surface": [
+          "reticulate"
+        ],
+        "habitat": [
+          "woodland",
+          "forest_edge"
+        ],
+        "nearby_trees": [
+          "beech",
+          "birch",
+          "oak",
+          "pine",
+          "spruce"
+        ],
+        "cap_shape": [
+          "convex"
+        ],
+        "gill_attachment": null,
+        "gill_spacing": null,
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "olive"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ],
+        "staining": [
+          "none"
+        ],
+        "body_surface": null
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/boletus-edulis.php",
+        "https://www.mushroomexpert.com/boletus_edulis.html"
+      ]
+    },
+    {
+      "id": "cantharellus_cibarius",
+      "scientific_name": "Cantharellus cibarius",
+      "common_names_de": [
+        "Echter Pfifferling"
+      ],
+      "common_names_en": [
+        "Chanterelle",
+        "Summer Chanterelle",
+        "Girolle"
+      ],
+      "image": "assets/mushrooms/cantharellus_cibarius.png",
+      "illustration": {
+        "publication_year": 1896,
+        "artists": [
+          "Schmalfuß, Albin"
+        ],
+        "book_authors": [
+          "Michael, Edmund"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8510517024/",
+          "bhl": "https://www.biodiversitylibrary.org/page/1266154#page/95/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "Public Domain"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "ridges"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "yellow"
+        ],
+        "fertile_surface_colour": [
+          "yellow"
+        ],
+        "ring_presence": [
+          "absent"
+        ],
+        "ring_mobility": null,
+        "growth": [
+          "scattered",
+          "tufted"
+        ],
+        "habitat": [
+          "woodland"
+        ],
+        "nearby_trees": [
+          "birch",
+          "oak",
+          "other_deciduous",
+          "other_conifer"
+        ],
+        "cap_shape": [
+          "funnel",
+          "depressed"
+        ],
+        "gill_attachment": null,
+        "gill_spacing": null,
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "white"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ],
+        "body_surface": null
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/cantharellus-cibarius.php"
+      ]
+    },
+    {
+      "id": "clitocybe_nebularis",
+      "scientific_name": "Clitocybe nebularis",
+      "common_names_de": [
+        "Nebelkappe"
+      ],
+      "common_names_en": [
+        "Clouded Funnel"
+      ],
+      "image": "assets/mushrooms/clitocybe_nebularis.png",
+      "illustration": {
+        "publication_year": 1891,
+        "artists": null,
+        "book_authors": [
+          "Dufour, Léon"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/6358016117/",
+          "bhl": "https://www.biodiversitylibrary.org/page/3270719#page/119/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "gills"
+        ],
+        "substrate": [
+          "leaf_litter",
+          "soil"
+        ],
+        "cap_colour": [
+          "grey",
+          "cream"
+        ],
+        "fertile_surface_colour": [
+          "white",
+          "cream"
+        ],
+        "ring_presence": [
+          "absent"
+        ],
+        "stem_base": [
+          "bulbous"
+        ],
+        "stem_surface": [
+          "smooth"
+        ],
+        "growth": [
+          "scattered",
+          "tufted"
+        ],
+        "habitat": [
+          "woodland",
+          "forest_edge"
+        ],
+        "nearby_trees": [
+          "spruce",
+          "other_conifer",
+          "other_deciduous"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat",
+          "funnel",
+          "depressed"
+        ],
+        "gill_attachment": [
+          "attached",
+          "decurrent"
+        ],
+        "gill_spacing": [
+          "crowded"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "white"
+        ],
+        "season": [
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/clitocybe-nebularis.php"
+      ]
+    },
+    {
+      "id": "coprinellus_micaceus",
+      "scientific_name": "Coprinellus micaceus",
+      "common_names_de": [
+        "Glimmertintling"
+      ],
+      "common_names_en": [
+        "Glistening Inkcap"
+      ],
+      "image": "assets/mushrooms/coprinellus_micaceus.png",
+      "illustration": {
+        "publication_year": 1847,
+        "artists": [
+          "Hussey, Anna Maria",
+          "Reed, Frances"
+        ],
+        "book_authors": [
+          "Hussey, Anna Maria",
+          "Reed, Frances"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8619423678/",
+          "bhl": "https://www.biodiversitylibrary.org/page/2976696#page/246/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "gills"
+        ],
+        "substrate": [
+          "dead_wood",
+          "buried_wood"
+        ],
+        "cap_colour": [
+          "brown",
+          "grey"
+        ],
+        "fertile_surface_colour": [
+          "white",
+          "brown",
+          "black"
+        ],
+        "ring_presence": [
+          "absent"
+        ],
+        "growth": [
+          "tufted"
+        ],
+        "habitat": [
+          "woodland",
+          "park_garden"
+        ],
+        "cap_shape": [
+          "bell",
+          "convex"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "black",
+          "brown"
+        ],
+        "special": [
+          "deliquescent",
+          "granular_veil"
+        ],
+        "season": [
+          "spring",
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/coprinellus-micaceus.php"
+      ]
+    },
+    {
+      "id": "coprinus_comatus",
+      "scientific_name": "Coprinus comatus",
+      "common_names_de": [
+        "Schopftintling"
+      ],
+      "common_names_en": [
+        "Shaggy Inkcap",
+        "Lawyer's Wig",
+        "Shaggy Mane"
+      ],
+      "image": "assets/mushrooms/coprinus_comatus.png",
+      "illustration": {
+        "publication_year": 1896,
+        "artists": [
+          "Schmalfuß, Albin"
+        ],
+        "book_authors": [
+          "Michael, Edmund"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8510518070/",
+          "bhl": "https://www.biodiversitylibrary.org/page/1266105#page/101/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "Public Domain"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "gills"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "white",
+          "cream",
+          "brown"
+        ],
+        "fertile_surface_colour": [
+          "white",
+          "pink",
+          "black"
+        ],
+        "cap_surface": [
+          "shaggy",
+          "scaly"
+        ],
+        "ring_presence": [
+          "present"
+        ],
+        "ring_mobility": [
+          "movable"
+        ],
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "grassland",
+          "park_garden",
+          "forest_edge"
+        ],
+        "cap_shape": [
+          "bell"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "black"
+        ],
+        "special": [
+          "deliquescent"
+        ],
+        "season": [
+          "spring",
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/coprinus-comatus.php"
+      ]
+    },
+    {
+      "id": "gymnopus_dryophilus",
+      "scientific_name": "Gymnopus dryophilus",
+      "common_names_de": [
+        "Waldfreund-Rübling"
+      ],
+      "common_names_en": [
+        "Russet Toughshank"
+      ],
+      "image": "assets/mushrooms/gymnopus_dryophilus.png",
+      "illustration": {
+        "publication_year": 1847,
+        "artists": [
+          "Hussey, Anna Maria"
+        ],
+        "book_authors": [
+          "Hussey, Anna Maria",
+          "Reed, Frances"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8618312369/",
+          "bhl": "https://www.biodiversitylibrary.org/page/2976630#page/180/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "gills"
+        ],
+        "substrate": [
+          "leaf_litter"
+        ],
+        "cap_colour": [
+          "cream",
+          "brown"
+        ],
+        "fertile_surface_colour": [
+          "cream"
+        ],
+        "cap_surface": [
+          "smooth"
+        ],
+        "ring_presence": [
+          "absent"
+        ],
+        "stem_surface": [
+          "fibrous"
+        ],
+        "growth": [
+          "scattered"
+        ],
+        "habitat": [
+          "woodland",
+          "park_garden"
+        ],
+        "nearby_trees": [
+          "oak",
+          "other_conifer"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat"
+        ],
+        "gill_attachment": [
+          "free",
+          "attached"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "white"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/gymnopus-dryophilus.php"
+      ]
+    },
+    {
+      "id": "hydnum_repandum",
+      "scientific_name": "Hydnum repandum",
+      "common_names_de": [
+        "Semmelstoppelpilz"
+      ],
+      "common_names_en": [
+        "Wood Hedgehog"
+      ],
+      "image": "assets/mushrooms/hydnum_repandum.png",
+      "illustration": {
+        "publication_year": 1896,
+        "artists": [
+          "Schmalfuß, Albin"
+        ],
+        "book_authors": [
+          "Michael, Edmund"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8510515094/",
+          "bhl": "https://www.biodiversitylibrary.org/page/1266148#page/85/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "Public Domain"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "teeth"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "white",
+          "cream",
+          "orange"
+        ],
+        "fertile_surface_colour": [
+          "cream",
+          "orange"
+        ],
+        "cap_surface": [
+          "smooth"
+        ],
+        "ring_presence": [
+          "absent"
+        ],
+        "ring_mobility": null,
+        "stem_surface": [
+          "smooth"
+        ],
+        "growth": [
+          "scattered"
+        ],
+        "habitat": [
+          "woodland"
+        ],
+        "nearby_trees": [
+          "beech",
+          "spruce"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat"
+        ],
+        "gill_attachment": null,
+        "gill_spacing": null,
+        "stem_position": [
+          "central",
+          "eccentric"
+        ],
+        "spore_print": [
+          "white"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ],
+        "body_surface": null
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/hydnum-repandum.php",
+        "https://www.mushroomexpert.com/hydnum_repandum.html"
+      ]
+    },
+    {
+      "id": "hypholoma_fasciculare",
+      "scientific_name": "Hypholoma fasciculare",
+      "common_names_de": [
+        "Grünblättriger Schwefelkopf"
+      ],
+      "common_names_en": [
+        "Sulphur Tuft",
+        "Sulfur Tuft"
+      ],
+      "image": "assets/mushrooms/hypholoma_fasciculare.png",
+      "illustration": {
+        "publication_year": 1891,
+        "artists": null,
+        "book_authors": [
+          "Dufour, Léon"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/6358023637/",
+          "bhl": "https://www.biodiversitylibrary.org/page/3270838#page/179/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "gills"
+        ],
+        "substrate": [
+          "dead_wood",
+          "buried_wood"
+        ],
+        "cap_colour": [
+          "yellow",
+          "brown"
+        ],
+        "fertile_surface_colour": [
+          "yellow",
+          "green_olive",
+          "black"
+        ],
+        "cap_surface": [
+          "smooth"
+        ],
+        "ring_presence": [
+          "absent"
+        ],
+        "growth": [
+          "tufted"
+        ],
+        "habitat": [
+          "woodland",
+          "park_garden"
+        ],
+        "nearby_trees": [
+          "other_deciduous",
+          "other_conifer"
+        ],
+        "cap_shape": [
+          "convex",
+          "umbonate"
+        ],
+        "gill_attachment": [
+          "attached"
+        ],
+        "gill_spacing": [
+          "crowded"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "purple_brown"
+        ],
+        "season": [
+          "spring",
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/hypholoma-fasciculare.php"
+      ]
+    },
+    {
+      "id": "imleria_badia",
+      "scientific_name": "Imleria badia",
+      "common_names_de": [
+        "Maronenröhrling"
+      ],
+      "common_names_en": [
+        "Bay Bolete"
+      ],
+      "image": "assets/mushrooms/imleria_badia.png",
+      "illustration": {
+        "publication_year": 1896,
+        "artists": [
+          "Schmalfuß, Albin"
+        ],
+        "book_authors": [
+          "Michael, Edmund"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8509403713/",
+          "bhl": "https://www.biodiversitylibrary.org/page/1266092#page/71/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "Public Domain"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "pores"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "brown"
+        ],
+        "fertile_surface_colour": [
+          "yellow",
+          "green_olive"
+        ],
+        "cap_surface": [
+          "smooth"
+        ],
+        "ring_presence": [
+          "absent"
+        ],
+        "stem_surface": [
+          "fibrous"
+        ],
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "woodland"
+        ],
+        "nearby_trees": [
+          "pine",
+          "spruce",
+          "other_conifer"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "olive"
+        ],
+        "staining": [
+          "blue"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/imleria-badia.php"
+      ]
+    },
+    {
+      "id": "laccaria_laccata",
+      "scientific_name": "Laccaria laccata",
+      "common_names_de": [
+        "Rötlicher Lacktrichterling"
+      ],
+      "common_names_en": [
+        "Deceiver"
+      ],
+      "image": "assets/mushrooms/laccaria_laccata.png",
+      "illustration": {
+        "publication_year": 1847,
+        "artists": [
+          "Hussey, Anna Maria",
+          "Reed, Frances"
+        ],
+        "book_authors": [
+          "Hussey, Anna Maria",
+          "Reed, Frances"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8619421490/",
+          "bhl": "https://www.biodiversitylibrary.org/page/2976664#page/214/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "gills"
+        ],
+        "substrate": [
+          "soil",
+          "leaf_litter"
+        ],
+        "cap_colour": [
+          "brown",
+          "orange",
+          "cream",
+          "white"
+        ],
+        "fertile_surface_colour": [
+          "brown",
+          "cream",
+          "pink"
+        ],
+        "cap_surface": [
+          "smooth"
+        ],
+        "ring_presence": [
+          "absent"
+        ],
+        "stem_surface": [
+          "fibrous"
+        ],
+        "growth": [
+          "scattered"
+        ],
+        "habitat": [
+          "woodland",
+          "forest_edge"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat",
+          "funnel"
+        ],
+        "gill_spacing": [
+          "distant"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "white"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/laccaria-laccata.php"
+      ]
+    },
+    {
+      "id": "laetiporus_sulphureus",
+      "scientific_name": "Laetiporus sulphureus",
+      "common_names_de": [
+        "Schwefelporling"
+      ],
+      "common_names_en": [
+        "Chicken of the Woods",
+        "Sulphur Shelf"
+      ],
+      "image": "assets/mushrooms/laetiporus_sulphureus.png",
+      "illustration": {
+        "publication_year": 1891,
+        "artists": null,
+        "book_authors": [
+          "Dufour, Léon"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/6358024981/",
+          "bhl": "https://www.biodiversitylibrary.org/page/3270844"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "bracket"
+        ],
+        "fertile_surface": [
+          "pores"
+        ],
+        "substrate": [
+          "living_wood",
+          "dead_wood"
+        ],
+        "cap_colour": [
+          "yellow",
+          "orange",
+          "cream"
+        ],
+        "fertile_surface_colour": [
+          "white",
+          "cream",
+          "yellow"
+        ],
+        "growth": [
+          "overlapping",
+          "tufted"
+        ],
+        "habitat": [
+          "woodland",
+          "park_garden"
+        ],
+        "nearby_trees": [
+          "oak",
+          "beech",
+          "other_deciduous",
+          "other_conifer"
+        ],
+        "stem_position": [
+          "absent"
+        ],
+        "spore_print": [
+          "white"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/laetiporus-sulphureus.php"
+      ]
+    },
+    {
+      "id": "leccinum_scabrum",
+      "scientific_name": "Leccinum scabrum",
+      "common_names_de": [
+        "Gemeiner Birkenpilz"
+      ],
+      "common_names_en": [
+        "Brown Birch Bolete",
+        "Birch Bolete"
+      ],
+      "image": "assets/mushrooms/leccinum_scabrum.png",
+      "illustration": {
+        "publication_year": 1896,
+        "artists": [
+          "Schmalfuß, Albin"
+        ],
+        "book_authors": [
+          "Michael, Edmund"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8510509164/",
+          "bhl": "https://www.biodiversitylibrary.org/page/1266127#page/55/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "Public Domain"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "pores"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "brown",
+          "grey"
+        ],
+        "fertile_surface_colour": [
+          "white",
+          "cream"
+        ],
+        "cap_surface": [
+          "smooth",
+          "fibrous"
+        ],
+        "ring_presence": [
+          "absent"
+        ],
+        "stem_surface": [
+          "scabers"
+        ],
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "woodland",
+          "forest_edge"
+        ],
+        "nearby_trees": [
+          "birch"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "olive"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/leccinum-scabrum.php"
+      ]
+    },
+    {
+      "id": "lycoperdon_perlatum",
+      "scientific_name": "Lycoperdon perlatum",
+      "common_names_de": [
+        "Flaschenstäubling"
+      ],
+      "common_names_en": [
+        "Common Puffball"
+      ],
+      "image": "assets/mushrooms/lycoperdon_perlatum.png",
+      "illustration": {
+        "publication_year": 1891,
+        "artists": null,
+        "book_authors": [
+          "Dufour, Léon"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/6358031159/",
+          "bhl": "https://www.biodiversitylibrary.org/page/3270622"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "puffball"
+        ],
+        "fertile_surface": [
+          "enclosed"
+        ],
+        "substrate": [
+          "soil",
+          "leaf_litter"
+        ],
+        "cap_colour": null,
+        "fertile_surface_colour": null,
+        "cap_surface": null,
+        "ring_presence": null,
+        "ring_mobility": null,
+        "stem_base": null,
+        "stem_surface": null,
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "woodland",
+          "grassland"
+        ],
+        "cap_shape": null,
+        "gill_attachment": null,
+        "gill_spacing": null,
+        "stem_position": null,
+        "spore_print": null,
+        "season": [
+          "summer",
+          "autumn"
+        ],
+        "body_surface": [
+          "spiny",
+          "warty"
+        ],
+        "volva_presence": null,
+        "volva_form": null
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/lycoperdon-perlatum.php",
+        "https://www.mushroomexpert.com/lycoperdon_perlatum.html"
+      ]
+    },
+    {
+      "id": "macrolepiota_procera",
+      "scientific_name": "Macrolepiota procera",
+      "common_names_de": [
+        "Parasol",
+        "Riesenschirmling"
+      ],
+      "common_names_en": [
+        "Parasol",
+        "Parasol Mushroom"
+      ],
+      "image": "assets/mushrooms/macrolepiota_procera.png",
+      "illustration": {
+        "publication_year": 1896,
+        "artists": [
+          "Schmalfuß, Albin"
+        ],
+        "book_authors": [
+          "Michael, Edmund"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8509418243/",
+          "bhl": "https://www.biodiversitylibrary.org/page/1266181#page/141/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "Public Domain"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "gills"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "cream",
+          "brown"
+        ],
+        "fertile_surface_colour": [
+          "white",
+          "cream"
+        ],
+        "cap_surface": [
+          "scaly"
+        ],
+        "ring_presence": [
+          "present"
+        ],
+        "ring_mobility": [
+          "movable"
+        ],
+        "stem_base": [
+          "bulbous"
+        ],
+        "stem_surface": [
+          "snakeskin"
+        ],
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "grassland",
+          "forest_edge",
+          "woodland"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat",
+          "umbonate"
+        ],
+        "gill_attachment": [
+          "free"
+        ],
+        "gill_spacing": [
+          "crowded"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "white"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/macrolepiota-procera.php"
+      ]
+    },
+    {
+      "id": "morchella_esculenta",
+      "scientific_name": "Morchella esculenta",
+      "common_names_de": [
+        "Speisemorchel"
+      ],
+      "common_names_en": [
+        "Morel",
+        "Common Morel",
+        "Yellow Morel"
+      ],
+      "image": "assets/mushrooms/morchella_esculenta.png",
+      "illustration": {
+        "publication_year": 1891,
+        "artists": null,
+        "book_authors": [
+          "Dufour, Léon"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/6358032311/",
+          "bhl": "https://www.biodiversitylibrary.org/page/3270667"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "morel"
+        ],
+        "fertile_surface": [
+          "pitted"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "yellow",
+          "cream",
+          "brown"
+        ],
+        "stem_surface": [
+          "smooth"
+        ],
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "woodland",
+          "forest_edge",
+          "park_garden"
+        ],
+        "nearby_trees": [
+          "other_deciduous"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "white"
+        ],
+        "season": [
+          "spring"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/morchella-esculenta.php"
+      ]
+    },
+    {
+      "id": "pleurotus_ostreatus",
+      "scientific_name": "Pleurotus ostreatus",
+      "common_names_de": [
+        "Austernseitling"
+      ],
+      "common_names_en": [
+        "Oyster Mushroom"
+      ],
+      "image": "assets/mushrooms/pleurotus_ostreatus.png",
+      "illustration": {
+        "publication_year": 1891,
+        "artists": null,
+        "book_authors": [
+          "Dufour, Léon"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/6358016979/",
+          "bhl": "https://www.biodiversitylibrary.org/page/3270618#page/125/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "NOT_IN_COPYRIGHT"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "gills"
+        ],
+        "substrate": [
+          "dead_wood",
+          "living_wood"
+        ],
+        "cap_colour": [
+          "white",
+          "cream",
+          "brown",
+          "grey"
+        ],
+        "fertile_surface_colour": [
+          "white",
+          "cream"
+        ],
+        "cap_surface": [
+          "smooth"
+        ],
+        "ring_presence": [
+          "absent"
+        ],
+        "growth": [
+          "overlapping",
+          "tufted"
+        ],
+        "habitat": [
+          "woodland",
+          "park_garden"
+        ],
+        "nearby_trees": [
+          "beech",
+          "oak",
+          "other_deciduous"
+        ],
+        "cap_shape": [
+          "convex",
+          "depressed"
+        ],
+        "gill_attachment": [
+          "decurrent"
+        ],
+        "gill_spacing": [
+          "crowded"
+        ],
+        "stem_position": [
+          "eccentric",
+          "lateral",
+          "absent"
+        ],
+        "spore_print": [
+          "white"
+        ],
+        "season": [
+          "autumn",
+          "winter",
+          "summer"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/pleurotus-ostreatus.php"
+      ]
+    },
+    {
+      "id": "sparassis_crispa",
+      "scientific_name": "Sparassis crispa",
+      "common_names_de": [
+        "Krause Glucke",
+        "Fette Henne"
+      ],
+      "common_names_en": [
+        "Wood Cauliflower",
+        "Cauliflower Fungus"
+      ],
+      "image": "assets/mushrooms/sparassis_crispa.png",
+      "illustration": {
+        "publication_year": 1896,
+        "artists": [
+          "Schmalfuß, Albin"
+        ],
+        "book_authors": [
+          "Michael, Edmund"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8509407829/",
+          "bhl": "https://www.biodiversitylibrary.org/page/1266099"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "Public Domain"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "branched"
+        ],
+        "fertile_surface": [
+          "smooth"
+        ],
+        "substrate": [
+          "buried_wood",
+          "living_wood"
+        ],
+        "growth": [
+          "single"
+        ],
+        "habitat": [
+          "woodland",
+          "forest_edge"
+        ],
+        "nearby_trees": [
+          "pine",
+          "other_conifer"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/sparassis-crispa.php"
+      ]
+    },
+    {
+      "id": "suillus_luteus",
+      "scientific_name": "Suillus luteus",
+      "common_names_de": [
+        "Butterpilz"
+      ],
+      "common_names_en": [
+        "Slippery Jack"
+      ],
+      "image": "assets/mushrooms/suillus_luteus.png",
+      "illustration": {
+        "publication_year": 1896,
+        "artists": [
+          "Schmalfuß, Albin"
+        ],
+        "book_authors": [
+          "Michael, Edmund"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8509401299/",
+          "bhl": "https://www.biodiversitylibrary.org/page/1266131#page/59/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "Public Domain"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "pores"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "brown"
+        ],
+        "fertile_surface_colour": [
+          "yellow",
+          "brown"
+        ],
+        "cap_surface": [
+          "slimy",
+          "smooth"
+        ],
+        "ring_presence": [
+          "present"
+        ],
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "woodland",
+          "forest_edge"
+        ],
+        "nearby_trees": [
+          "pine"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "brown"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/suillus-luteus.php"
+      ]
+    },
+    {
+      "id": "tylopilus_felleus",
+      "scientific_name": "Tylopilus felleus",
+      "common_names_de": [
+        "Gallenröhrling"
+      ],
+      "common_names_en": [
+        "Bitter Bolete"
+      ],
+      "image": "assets/mushrooms/tylopilus_felleus.png",
+      "illustration": {
+        "publication_year": 1896,
+        "artists": [
+          "Schmalfuß, Albin"
+        ],
+        "book_authors": [
+          "Michael, Edmund"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8509400359/",
+          "bhl": "https://www.biodiversitylibrary.org/page/1266126#page/53/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "Public Domain"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "pores"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "brown"
+        ],
+        "fertile_surface_colour": [
+          "cream",
+          "pink",
+          "brown"
+        ],
+        "cap_surface": [
+          "fibrous",
+          "smooth"
+        ],
+        "ring_presence": [
+          "absent"
+        ],
+        "stem_surface": [
+          "reticulate"
+        ],
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "woodland"
+        ],
+        "nearby_trees": [
+          "oak",
+          "beech",
+          "other_deciduous",
+          "other_conifer"
+        ],
+        "cap_shape": [
+          "convex",
+          "flat"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "pink"
+        ],
+        "staining": [
+          "none"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/tylopilus-felleus.php"
+      ]
+    },
+    {
+      "id": "xerocomellus_chrysenteron",
+      "scientific_name": "Xerocomellus chrysenteron",
+      "common_names_de": [
+        "Gemeiner Rotfußröhrling"
+      ],
+      "common_names_en": [
+        "Red Cracking Bolete"
+      ],
+      "image": "assets/mushrooms/xerocomellus_chrysenteron.png",
+      "illustration": {
+        "publication_year": 1896,
+        "artists": [
+          "Schmalfuß, Albin"
+        ],
+        "book_authors": [
+          "Michael, Edmund"
+        ],
+        "sources": {
+          "flickr": "https://www.flickr.com/photos/biodivlibrary/8510511800/",
+          "bhl": "https://www.biodiversitylibrary.org/page/1266091#page/69/mode/1up"
+        },
+        "rights_statements": {
+          "flickr": "Public Domain",
+          "bhl": "Public Domain"
+        }
+      },
+      "traits": {
+        "body_form": [
+          "cap_stem"
+        ],
+        "fertile_surface": [
+          "pores"
+        ],
+        "substrate": [
+          "soil"
+        ],
+        "cap_colour": [
+          "brown",
+          "grey",
+          "yellow"
+        ],
+        "fertile_surface_colour": [
+          "yellow",
+          "green_olive"
+        ],
+        "cap_surface": [
+          "smooth",
+          "cracked",
+          "fibrous"
+        ],
+        "ring_presence": [
+          "absent"
+        ],
+        "growth": [
+          "single",
+          "scattered"
+        ],
+        "habitat": [
+          "woodland"
+        ],
+        "nearby_trees": [
+          "other_conifer",
+          "beech"
+        ],
+        "cap_shape": [
+          "convex"
+        ],
+        "stem_position": [
+          "central"
+        ],
+        "spore_print": [
+          "olive"
+        ],
+        "staining": [
+          "blue"
+        ],
+        "season": [
+          "summer",
+          "autumn"
+        ]
+      },
+      "trait_sources": [
+        "https://www.first-nature.com/fungi/xerocomellus-chrysenteron.php"
+      ]
+    }
+  ],
+  "trait_vocabulary_version": "0.2"
+}
