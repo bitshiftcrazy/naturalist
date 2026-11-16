@@ -1,0 +1,9 @@
+(version 1)
+(rule "USB4105 internal hole clearance"
+    (condition "A.memberOfFootprint('J1')")
+    (constraint hole_clearance (min 0.19mm)))
+
+(rule "Allow mask bridges in PCB artwork"
+    (constraint bridged_mask)
+    (condition "A.intersectsArea('ART_KEEPOUT') || A.intersectsArea('ART_KEEPOUT_1') || A.intersectsArea('ART_KEEPOUT_2') || A.intersectsArea('ART_KEEPOUT_3') || A.intersectsArea('ART_KEEPOUT_4') || A.intersectsArea('ART_KEEPOUT_5') || A.intersectsArea('ART_KEEPOUT_6') || A.intersectsArea('ART_KEEPOUT_7') || A.intersectsArea('ART_KEEPOUT_8') || A.intersectsArea('ART_KEEPOUT_9') || A.intersectsArea('ART_KEEPOUT_10') || A.intersectsArea('ART_KEEPOUT_11') || A.intersectsArea('ART_KEEPOUT_12') || A.intersectsArea('ART_KEEPOUT_13') || A.intersectsArea('ART_KEEPOUT_14') || A.intersectsArea('ART_KEEPOUT_15') || A.intersectsArea('ART_KEEPOUT_16') || A.intersectsArea('ART_KEEPOUT_17')")
+    (severity ignore))
