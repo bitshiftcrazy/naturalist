@@ -1,0 +1,15 @@
+[Unit]
+Description=Naturalist Cyberdeck (native C field guide)
+After=local-fs.target
+
+[Service]
+Type=exec
+User=kati
+WorkingDirectory=/home/kati/naturalist_software
+ExecStart=/home/kati/naturalist_software/build/naturalist-deck --python /home/kati/.virtualenvs/pimoroni/bin/python --live
+Restart=on-failure
+RestartSec=5s
+TimeoutStopSec=90s
+
+[Install]
+WantedBy=multi-user.target

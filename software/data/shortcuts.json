@@ -1,0 +1,321 @@
+{
+	"schema_version": 1,
+	"trait_vocabulary_version": "0.2",
+	"bindings": [
+		{
+			"key": "Q",
+			"facet": "staining",
+			"value": "blue",
+			"label_de": "Quetschung blaut",
+			"label_en": "Bruises blue"
+		},
+		{
+			"key": "W",
+			"facet": "cap_colour",
+			"value": "white",
+			"label_de": "Weißer Hut",
+			"label_en": "White cap"
+		},
+		{
+			"key": "E",
+			"facet": "substrate",
+			"value": "soil",
+			"label_de": "Erde / Boden",
+			"label_en": "Soil / ground"
+		},
+		{
+			"key": "R",
+			"facet": "ring_presence",
+			"value": "present",
+			"label_de": "Ring sichtbar",
+			"label_en": "Visible ring"
+		},
+		{
+			"key": "T",
+			"facet": "substrate",
+			"value": "dead_wood",
+			"label_de": "Totholz",
+			"label_en": "Dead wood"
+		},
+		{
+			"key": "U",
+			"facet": "fertile_surface_colour",
+			"value": "white",
+			"label_de": "Unterseite weiß",
+			"label_en": "White underside"
+		},
+		{
+			"key": "I",
+			"facet": "fertile_surface",
+			"value": "enclosed",
+			"label_de": "Innenliegende Sporen",
+			"label_en": "Enclosed spores"
+		},
+		{
+			"key": "O",
+			"facet": "cap_colour",
+			"value": "orange",
+			"label_de": "Oranger Hut",
+			"label_en": "Orange cap"
+		},
+		{
+			"key": "P",
+			"facet": "fertile_surface",
+			"value": "pores",
+			"label_de": "Poren / Röhren",
+			"label_en": "Pores / tubes"
+		},
+		{
+			"key": "A",
+			"facet": "ring_presence",
+			"value": "absent",
+			"label_de": "Ring nicht erkennbar",
+			"label_en": "No visible ring"
+		},
+		{
+			"key": "S",
+			"facet": "fertile_surface",
+			"value": "teeth",
+			"label_de": "Stacheln",
+			"label_en": "Spines / teeth"
+		},
+		{
+			"key": "D",
+			"facet": "fertile_surface_colour",
+			"value": "brown",
+			"label_de": "Dunkle/braune Fruchtschicht",
+			"label_en": "Dark / brown fertile surface"
+		},
+		{
+			"key": "F",
+			"facet": "fertile_surface",
+			"value": "ridges",
+			"label_de": "Falten / Leisten",
+			"label_en": "Folds / ridges"
+		},
+		{
+			"key": "G",
+			"facet": "cap_colour",
+			"value": "yellow",
+			"label_de": "Gelber Hut",
+			"label_en": "Yellow cap"
+		},
+		{
+			"key": "H",
+			"facet": "cap_surface",
+			"value": "slimy",
+			"label_de": "Hut schleimig",
+			"label_en": "Slimy cap"
+		},
+		{
+			"key": "K",
+			"facet": "stem_base",
+			"value": "bulbous",
+			"label_de": "Knollige Stielbasis",
+			"label_en": "Bulbous stem base"
+		},
+		{
+			"key": "L",
+			"facet": "fertile_surface",
+			"value": "gills",
+			"label_de": "Lamellen",
+			"label_en": "Gills"
+		},
+		{
+			"key": "Z",
+			"facet": "cap_surface",
+			"value": "shaggy",
+			"label_de": "Zottige Hutoberfläche",
+			"label_en": "Shaggy cap surface"
+		},
+		{
+			"key": "C",
+			"facet": "cap_colour",
+			"value": "cream",
+			"label_de": "Cremefarbener Hut",
+			"label_en": "Cream-coloured cap"
+		},
+		{
+			"key": "V",
+			"facet": "volva_presence",
+			"value": "present",
+			"label_de": "Volva vorhanden",
+			"label_en": "Volva present"
+		},
+		{
+			"key": "B",
+			"facet": "cap_colour",
+			"value": "brown",
+			"label_de": "Brauner Hut",
+			"label_en": "Brown cap"
+		},
+		{
+			"key": "N",
+			"facet": "stem_surface",
+			"value": "reticulate",
+			"label_de": "Netz am Stiel",
+			"label_en": "Reticulate stem"
+		},
+		{
+			"key": "M",
+			"facet": "ring_mobility",
+			"value": "movable",
+			"label_de": "Mobiler Ring",
+			"label_en": "Movable ring"
+		},
+		{
+			"key": "Shift+W",
+			"facet": "habitat",
+			"value": "woodland",
+			"label_de": "Wald",
+			"label_en": "Woodland"
+		},
+		{
+			"key": "Shift+E",
+			"facet": "nearby_trees",
+			"value": "oak",
+			"label_de": "Eiche in der Nähe",
+			"label_en": "Oak nearby"
+		},
+		{
+			"key": "Shift+R",
+			"facet": "cap_colour",
+			"value": "red",
+			"label_de": "Roter Hut",
+			"label_en": "Red cap"
+		},
+		{
+			"key": "Shift+T",
+			"facet": "substrate",
+			"value": "living_wood",
+			"label_de": "Lebendes Holz",
+			"label_en": "Living wood"
+		},
+		{
+			"key": "Shift+U",
+			"facet": "fertile_surface_colour",
+			"value": "yellow",
+			"label_de": "Unterseite gelb",
+			"label_en": "Yellow underside"
+		},
+		{
+			"key": "Shift+I",
+			"facet": "body_form",
+			"value": "puffball",
+			"label_de": "Bauchpilz / Stäubling",
+			"label_en": "Puffball form"
+		},
+		{
+			"key": "Shift+O",
+			"facet": "fertile_surface_colour",
+			"value": "green_olive",
+			"label_de": "Olive Fruchtschicht",
+			"label_en": "Olive fertile surface"
+		},
+		{
+			"key": "Shift+P",
+			"facet": "nearby_trees",
+			"value": "pine",
+			"label_de": "Pinus / Kiefer in der Nähe",
+			"label_en": "Pine nearby"
+		},
+		{
+			"key": "Shift+A",
+			"facet": "substrate",
+			"value": "leaf_litter",
+			"label_de": "Auf Laub- oder Nadelstreu",
+			"label_en": "On leaf / needle litter"
+		},
+		{
+			"key": "Shift+S",
+			"facet": "cap_surface",
+			"value": "scaly",
+			"label_de": "Schuppiger Hut",
+			"label_en": "Scaly cap"
+		},
+		{
+			"key": "Shift+D",
+			"facet": "cap_surface",
+			"value": "warty",
+			"label_de": "Hüllreste / Warzen am Hut",
+			"label_en": "Veil remnants / warts on cap"
+		},
+		{
+			"key": "Shift+F",
+			"facet": "gill_attachment",
+			"value": "free",
+			"label_de": "Freie Lamellen",
+			"label_en": "Free gills"
+		},
+		{
+			"key": "Shift+G",
+			"facet": "cap_colour",
+			"value": "grey",
+			"label_de": "Grauer Hut",
+			"label_en": "Grey cap"
+		},
+		{
+			"key": "Shift+H",
+			"facet": "cap_surface",
+			"value": "smooth",
+			"label_de": "Glatter Hut",
+			"label_en": "Smooth cap"
+		},
+		{
+			"key": "Shift+K",
+			"facet": "body_form",
+			"value": "bracket",
+			"label_de": "Konsolenförmig",
+			"label_en": "Bracket-shaped"
+		},
+		{
+			"key": "Shift+L",
+			"facet": "gill_attachment",
+			"value": "decurrent",
+			"label_de": "Herablaufende Lamellen",
+			"label_en": "Decurrent gills"
+		},
+		{
+			"key": "Shift+M",
+			"facet": "body_form",
+			"value": "morel",
+			"label_de": "Morchelform",
+			"label_en": "Morel-shaped"
+		},
+		{
+			"key": "Shift+N",
+			"facet": "stem_surface",
+			"value": "snakeskin",
+			"label_de": "Genatterter Stiel",
+			"label_en": "Snakeskin-patterned stem"
+		},
+		{
+			"key": "Shift+V",
+			"facet": "body_form",
+			"value": "branched",
+			"label_de": "Verzweigt / kraus",
+			"label_en": "Branched / ruffled"
+		},
+		{
+			"key": "Shift+Z",
+			"facet": "cap_shape",
+			"value": "depressed",
+			"label_de": "Zentrum des Hutes vertieft",
+			"label_en": "Depressed cap centre"
+		},
+		{
+			"key": "Shift+B",
+			"facet": "growth",
+			"value": "tufted",
+			"label_de": "Büschelig",
+			"label_en": "Tufted growth"
+		},
+		{
+			"key": "Shift+C",
+			"facet": "cap_surface",
+			"value": "cracked",
+			"label_de": "Rissige Hutoberfläche",
+			"label_en": "Cracked cap surface"
+		}
+	]
+}
